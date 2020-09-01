@@ -1,0 +1,44 @@
+.main{
+  padding: 5px 5px 0 5px;
+  .creg{
+    width: 100px;
+    position:absolute;
+    right: 20px;
+    top: 10px;
+  }
+}
+// .devlist-card{
+//
+
+// }
+.devs-charts{
+  width: 100%;
+  padding:5px 0 0 0;
+  // background-color: green;
+}
+.el-row {
+  margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.el-col {
+  border-radius: 4px;
+}
+.devlist-card{
+  margin-top: 5px;
+  padding: 0 10px 0 10px;
+  .grid-content{
+    // background-color: greenyellow;
+  }
+}
+.filter-btn{
+  margin: 5px;
+}
+.regselect{
+  padding: 5px;
+}
+.devtable{
+  width: 100%;
+  min-height: 300px;
+}

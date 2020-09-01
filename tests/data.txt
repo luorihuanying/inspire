@@ -1,0 +1,94 @@
+const dataPointsList = [
+  {
+    dpName: '数据点-1',
+    desc: '数据点的描述',
+    position: [107.872283, 22.964122],
+    dataTotal: 10000, // 当前发送数据总量
+    type: 2 // 数据点传感器类型
+  },
+  {
+    dpName: '数据点-2',
+    desc: '数据点的描述',
+    position: [107.872283, 22.964122],
+    dataTotal: 10000,
+    type: 2
+  },
+  {
+    dpName: '数据点-3',
+    desc: '数据点的描述',
+    position: [107.872283, 22.964122],
+    dataTotal: 10000,
+    type: 1// 传感器类型
+  }
+]
+
+const devsList = [
+  {
+    devName: '设备1',
+    desc: '设备1的描述',
+    position: [107.87062, 22.961346],
+    dataPoints: dataPointsList, // 数据点list
+    dpTotal: dataPointsList.length, // 设备下数据点总数
+    dataTotal: 20000 // 当前数据接收数据总量
+  },
+  {
+    devName: '设备2',
+    desc: '设备2的描述',
+    position: [107.871929, 22.963105],
+    dataPoints: dataPointsList,
+    dpTotal: dataPointsList.length,
+    dataTotal: 30000
+  }
+]
+const groupsList = [
+  {
+    gName: '设备组-1',
+    desc: '对设备组-1的描述',
+    position: [107.8713106071568, 22.94871346075051],
+    desvs: devsList, // 设备list
+    devsTotal: devsList.length// 组下设备总数
+  },
+  {
+    gName: '设备组-1',
+    desc: '对设备组-1的描述',
+    position: [107.8713106071568, 22.94871346075051],
+    desvs: devsList,
+    devsTotal: devsList.length
+  }
+]
+const plotList = [
+  {
+    plostName: '地块-1',
+    desc: '对地块-1的描述',
+    bounds: [], // 地块矩形边界
+    layerUrl: 'http://..', // 图层资源路径
+    exterior: [], // 边界坐标list
+    lotRange: 2330 // 地块面积
+  },
+  {
+    plostName: '地块-2',
+    desc: '对地块-2的描述',
+    bounds: [],
+    layerUrl: 'http://..',
+    exterior: [],
+    lotRange: 2330
+  }
+]
+const regDevsInfo = [
+  {
+    regName: '一区',
+    desc: '这是对1区的描述',
+    groups: groupsList, // 区下设备组
+    location: '广西民族大学西校区广西壮族自治区南宁市西乡塘区树人路东200米',
+    position: [107.871320714161, 22.95560423963736],
+    plots: plotList// 地块list
+  },
+  {
+    regName: '二区',
+    desc: '这是对2区的描述',
+    groups: groupsList,
+    location: '广西民族大学西校区广西壮族自治区南宁市西乡塘区树人路东200米',
+    position: [107.871320714161, 22.95560423963736],
+    plots: plotList
+  }
+]

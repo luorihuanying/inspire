@@ -1,0 +1,73 @@
+.plotmain {
+    padding: 5px 5px 0 5px;
+  
+  .headerInfo {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix:after {
+    clear: both;
+  }
+  .reg {
+    float: right;
+    .regselect {
+      max-width: 150px;
+    }
+  }
+  .content{
+    .plot_box{
+      margin-bottom: 10px;
+    }
+    .lotRange {
+        font-size: 13px;
+        color: #999;
+      }
+      
+      .bottom {
+        margin-top: 13px;
+        line-height: 12px;
+      }
+    
+      .button {
+        padding: 3px;
+        float: right;
+      }
+    
+  
+      .clearfix:before,
+      .clearfix:after {
+          display: table;
+          content: "";
+      }
+      
+      .clearfix:after {
+          clear: both
+      }
+
+ 
+  }
+
+  .plot_form{
+    .pform{
+      margin-left: 50px;
+      padding-bottom: 0;
+      .successIcon{
+        margin-left: 3px;
+        font-size: large;
+
+      }
+    }
+    .el-dialog__body{
+     padding: 0;
+     
+   }
+ }
+
+}

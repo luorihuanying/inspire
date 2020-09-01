@@ -1,0 +1,264 @@
+.el-dropdown-link {
+    cursor: pointer;
+    color: #409EFF;
+  }
+  .el-icon-arrow-down {
+    font-size: 12px;
+  }
+  .demonstration {
+    display: block;
+    color: #8492a6;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+//div固定在页面的某一位置
+.chartData {
+    display: 'none';
+    // width: 1000px;
+    // height: 850px;
+    // background: white;
+    margin: 0 auto; /*水平居中*/
+    position: relative;
+    // top: 50%; /*偏移*/
+    // transform: translateY(15%);
+    width: 900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    background: blue($color: #000000);
+}
+.main{
+  width: 196px;
+  height: 36px;
+  background: white;
+  margin: 0 auto; /*水平居中*/
+  position: relative;
+  top: 10%; /*偏移*/
+  transform: translateY(300%);
+}
+.tableD{
+  display: '';
+  margin: 0 auto; /*水平居中*/
+  position: relative;
+  width: 900px;
+  margin-left: 0px;
+  height: 850px;
+  background: green($color: #000000);
+}
+.chartTable{
+  width: 900px;
+  height: 800px;
+  margin: 0 auto;//水平居中
+  position: relative;
+  top: 50%;
+  transform: translateY(20%);
+}
+
+//摄像头
+.wholeRange{
+  width: 1952px;
+  height: 1334px;
+  background: white;
+  margin: 0 auto;//水平居中
+}
+//设备详情
+.deviceInfo{
+  width: 1952px;
+  height: 550px;
+  background: #FAFAFA;
+  position: relative;
+}
+.deviceInfoLeftRight{
+  width: 1200px;
+  height: 500px;
+  background: white;
+  float: left;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+}
+.deviceInfoLeft{
+  width: 780px;
+  height: 500px;
+  float: left;
+  background: #E6E6E6;
+}
+.deviceInfoRight{
+  width: 420px;
+  height: 500px;
+  background: #E6E6E6;
+  float: left;
+}
+//用于包裹p标签
+.externalOfP{
+  width: 310px;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: 50px;;
+}
+//相册、图表、日照时长
+.centerSection1{
+  width: 1200px;
+  height: 61px;
+  background: white;
+  top: -175px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+}
+//今日、近30天
+.centerSection2{
+  width: 1200px;
+  height: 50px;
+  background: white;
+  top: -70px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+}
+//时间按钮
+.timeButton{
+  width: 500px;
+  height: 50px;
+  margin-left: 450px;
+}
+//时间选择
+.block{
+  width: 200px;
+  height: 50px;
+  margin-left: 800px;
+  margin-top: -50px;
+}
+//下载
+.download{
+  width: 150px;
+  height: 45px;
+  margin-left: 1050px;
+  margin-top: -50px;
+}
+//整个图表区域
+.figureArea{
+  width: 1952px;
+  height: 700px;
+  background: #FAFAFA;
+  top: 680px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+}
+//用于包裹四个子图
+.shellOfChart{
+  width: 1200px;
+  height: 700px;
+  background: #E6E6E6;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  float: left;
+  // display: '';
+  visibility: visible;
+}
+.chart1{
+  width: 600px;
+  height: 350px;
+  float: left;
+}
+.chart2{
+  width: 600px;
+  height: 350px;
+  float: left;
+}
+.chart3{
+  width: 600px;
+  height: 350px;
+  float: left;
+}
+.chart4{
+  width: 600px;
+  height: 350px;
+  float: left;
+}
+//图片显示
+.shellOfPic{
+  width: 1200px;
+  height: 700px;
+  background: #E6E6E6;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  float: left;
+  // display: none;
+  visibility: hidden;
+}
+//日积温
+.shellOfChart2{
+  width: 1200px;
+  height: 700px;
+  background: #E6E6E6;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  float: left;
+  // display: none;
+  visibility: hidden;
+}
+.circle-pic{
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+.demonstration{
+  margin-left: 60px;
+}
+.shang{
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.xia{
+  width: 700px;
+  height: 180px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.ulClass{
+  width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.jj{
+  width: 400px;
+  height: 40px;
+  margin: 0 auto;
+}
+.shipin{
+  width: 650px;
+  height: 280px;
+  margin: 0 auto;
+}
+.picture{
+  margin-top: 25px;;
+  margin-left: 25px;
+}
+.chartClass{
+  margin-top: 25px;;
+  margin-left: 25px;
+}
