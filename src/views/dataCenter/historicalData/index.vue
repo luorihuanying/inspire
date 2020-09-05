@@ -499,11 +499,11 @@ export default {
         const tHeader = ['id', '日期', '设备名', '数据点', '数据值', 'status']
         const filterVal = ['id', 'date', 'devName', 'dataPointName', 'value', 'alarm']
         const data = this.formatJson(filterVal)
-        excel.export_json_to_excel({
-          header: tHeader,
+        excel.export_json_to_excel(
+          tHeader,
           data,
-          filename: 'table-list'
-        })
+          'table-list'
+        )
         setTimeout(() => {
           this.exportFlag = false
         }, 2000)

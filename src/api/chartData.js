@@ -56,3 +56,35 @@ export function getlivePic() {
     method: 'get'
   })
 }
+// 物联网
+export function getNewtestData() {
+  return request({
+    url: '/cms/getNewtestDataApi/',
+    method: 'get'
+  })
+}
+export function get4GInfo() {
+  return request({
+    url: '/cms/get4GInfoApi/',
+    method: 'get'
+  })
+}
+export function getIotDay() {
+  return request({
+    url: '/cms/getIotDayApi/',
+    method: 'get'
+  })
+}
+export function getIotWeek() {
+  return request({
+    url: '/cms/getIotWeekApi/',
+    method: 'get'
+  })
+}
+export function getIotMonth() {
+  return request({
+    url: '/cms/getIotMonthApi/',
+    method: 'get'
+  })
+}
+

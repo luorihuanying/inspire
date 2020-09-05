@@ -43,7 +43,6 @@ export function scrollTo(to, duration, callback) {
     // find the value with the quadratic in-out easing function
     // console.log(currentTime, start, change, duration)
     var val = Math.easeInOutQuad(currentTime, start, change, duration)
-    console.log(val)
     // move the document.body
     move(val)
     // do the animation unless its over

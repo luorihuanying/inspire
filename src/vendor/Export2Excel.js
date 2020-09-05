@@ -121,9 +121,7 @@ function formatJson(jsonData) {
     console.log(jsonData)
 }
 export function export_json_to_excel(th, jsonData, defaultTitle) {
-
     /* original data */
-
     var data = jsonData;
     data.unshift(th);
     var ws_name = "SheetJS";
